@@ -357,4 +357,29 @@ img:hover{
         display: none;
     }
     
+}@media (max-width: 767px){
+    header h4.mainh4{
+        font-size: 20px;
+    }
+    .header-i{
+        font-size: 20px;
+    }
+    .landing{
+        width: 300px;
+        overflow: hidden;
+    }
+.skills .container .progress{
+    width: 300px;
+}
+}
+@media (max-width: 375px){
+    .skills .container{
+        width: calc(100% - 20px);
+    }
+    .skills .container .progress{
+        width: 100%;
+    }
+.skills{
+    padding: 100px 30px;
+}
 }
